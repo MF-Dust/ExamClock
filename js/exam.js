@@ -1,22 +1,6 @@
 console.groupCollapsed("\n%c  %c考试时钟 ExamClock", "background:url('./favicon.ico') no-repeat;padding:32px;", "font:bold 36px sans-serif;color:#3a9;");
 console.log("\n项目仓库：https://github.com/L33Z22L11/ExamClock\n野生技协群：894656456\n\n");
 console.groupEnd();
-/* 
- * 适用于宝鸡中学的考试科目列表
- */
-
-let specialDate = {
-  cee25: parseInt((new Date(2025, 5, 8) - Date.now()) / 864E5),
-}
-
-exams["2022-05-14"] = {
-  type: "临时考练",
-  mainSlogan: `${specialDate.cee22}天后 峰顶相会`,
-  schedule() {
-    $("考练", today.date, "22:30", "23:30");
-  }
-};
-
 
 
 exams[27] = {
@@ -45,7 +29,7 @@ exams[27] = {
   }
 
 exams[271] = {
-  type: "高一",
+  type: "高一考试",
   author: "来源:张老师",
   origin: "2027届年级部",
   rollSlogan: ["高一第一学期期末考试：请以实际铃声为准。"],
